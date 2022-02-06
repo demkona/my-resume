@@ -1,6 +1,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
-background-color: #E5E5E5;
+ background-color: #595959;
+}
+.link{
+    text-decoration: none;
+}
+.link:hover,
+.link:focus{
+    color: red;
 }
 .main-container{
     display: flex;
@@ -12,9 +19,9 @@ background-color: #E5E5E5;
 }
 /* main content section */
 .main-content-section{
-    padding: 100px 90px 100px 90px
+    padding: 100px 90px 100px 90px;
 }
-.my-content-title{
+    .my-content-title{
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
